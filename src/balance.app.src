@@ -1,0 +1,13 @@
+{application, balance,
+ [
+  {description, "Load balancing TCP proxy"},
+  {vsn, "1.0"},
+  {id, "Balance"},
+  {modules, [
+            ]
+   },
+  % {registered, [ xxx_update_this_list ] },
+   {applications, [ kernel, sasl ] },
+   {mod, {balance, []}}
+  ]
+}.
